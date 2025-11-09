@@ -10,7 +10,7 @@ const MusicLayout = ({
   return (
     <div className=" flex">
       {sidebar}
-      <div className=""></div>
+      <></>
       {children}
     </div>
   );
