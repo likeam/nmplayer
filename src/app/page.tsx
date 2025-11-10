@@ -1,5 +1,5 @@
 import React from "react";
-import Music from "./music/page";
+import Music from "./musics/page";
 
 const Home = () => {
   return (

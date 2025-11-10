@@ -4,15 +4,20 @@ const MusicLayout = ({
   children,
   sidebar,
   songs,
+  player,
 }: {
   children: ReactNode;
   sidebar: ReactNode;
   songs: ReactNode;
+  player: ReactNode;
 }) => {
   return (
-    <div className=" flex">
+    <div className=" flex h-screen bg-gray-800 text-white ">
       {sidebar}
-      <>{songs}</>
+      <>
+        {songs}
+        {player}
+      </>
       {children}
     </div>
   );
